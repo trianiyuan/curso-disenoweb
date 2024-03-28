@@ -1,0 +1,104 @@
+/* Extra Small devices (landscape phones, 576px and down)*/
+
+@media (max-width: 576px) {
+    /*desactivar la animacion de los banners*/
+    .banner1 {
+        animation: none;
+    }
+    .banner2 {
+        animation: none;
+    }
+    .titulo1 {
+        font-size: 50px;
+        font-weight: bolder;
+    }
+    .titulo2 {
+        font-size: 24px;
+    }
+    .titulo3 {
+        font-size: 40px;
+    }
+    .img1,
+    .img2,
+    .img3,
+    .img4,
+    .img5,
+    .img6,
+    .img7,
+    .img8 img {
+        width: 100% !important;
+        margin: 0 auto;
+        display: block;
+    }
+    /*efecto hover*/
+    .imghvr-slide-down,
+    .imghvr-shutter-out-horiz,
+    .imghvr-zoom-out,
+    .imghvr-blur,
+    .imghvr-shutter-out-diag-2,
+    .imghvr-flip-diag-1,
+    .imghvr-reveal-up,
+    .imghvr-push-left {
+        width: 70% !important;
+        margin: 0 auto;
+        display: block;
+    }
+}
+
+
+/* Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) {
+    .titulo1 {
+        font-size: 50px;
+        font-weight: bolder;
+    }
+    .titulo2 {
+        font-size: 24px;
+    }
+    .titulo3 {
+        font-size: 40px;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+    .titulo1 {
+        font-size: 70px;
+        font-weight: bolder;
+    }
+    .titulo2 {
+        font-size: 40x;
+    }
+    .titulo3 {
+        font-size: 60px;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    .titulo1 {
+        font-size: 70px;
+        font-weight: bolder;
+    }
+    .titulo2 {
+        font-size: 40px;
+    }
+    .titulo3 {
+        font-size: 55px;
+    }
+}
+
+
+/* X-Large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {}
+
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+
+@media (min-width: 1400px) {}
