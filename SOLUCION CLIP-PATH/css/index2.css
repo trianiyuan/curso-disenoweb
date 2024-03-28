@@ -1,0 +1,65 @@
+header {
+    background-color: #2137b3;
+}
+
+.portada1 {
+    background-color: #d4ffb0;
+    color: #000 !important;
+    -webkit-transform: skewY(-5deg);
+    -moz-transform: skewY(-5deg);
+    -ms-transform: skewY(-5deg);
+    -o-transform: skewY(-5deg);
+    /*El método skewY() Inclina un elemento hacia la izquierda o hacia la derecha, de acuerdo al angulo escrito*/
+    /*probarlo con -10deg y skewX()*/
+    transform: skewY(-5deg);
+    /*permite bajar un espacio*/
+    margin-top: -5vw;
+}
+
+h1 {
+    line-height: 200px !important;
+    font-weight: bolder;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+}
+
+header {
+    margin-bottom: 170px;
+}
+
+footer {
+    background-color: #2137b3;
+    margin-top: 40px;
+}
+
+
+/*divisor de forma de onda */
+
+.custom-shape {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape svg {
+    position: relative;
+    display: block;
+    /*calcula el ancho y la forma del %*/
+    width: calc(105% + 1.3px);
+    /*aumentar el alto de la forma onda*/
+    height: 124px;
+}
+
+.custom-shape .shape-fill {
+    fill: #1e9345;
+}

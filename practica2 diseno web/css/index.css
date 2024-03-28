@@ -1,0 +1,48 @@
+.titulo1 {
+    font-size: 50px;
+}
+
+.titulo2 {
+    font-size: 30px;
+}
+
+.titulo3 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.fondo1 {
+    background-color: #2ab8ac;
+}
+
+/*distancia de la informacion*/
+
+/*valores1 (arriba/abajo) valores2 (izq-dere) */
+
+.container-fluid{
+    padding: 80px 0px;
+}
+
+.titulo4{
+    font-size: 35px;
+}
+
+.fondo2 {
+    background-color: #ffab52;
+}
+
+.fondo3{
+    background-color: #9c55a5;
+}
+
+.fondo4{
+    background-color: #cce033;
+}
+
+footer{
+    /*arriba/abajo primeros valores y los segundos valores izquierda y derecha*/
+    padding: 30px 0;
+}

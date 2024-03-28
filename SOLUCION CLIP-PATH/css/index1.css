@@ -1,0 +1,214 @@
+h1 {
+    line-height: 200px !important;
+    /*padding-top: 60px;*/
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.forma1 {
+    width: 250px;
+    height: 250px;
+    background-color: #2137b3;
+    margin: 40px auto;
+    clip-path: circle(50% at center top);
+    transition: all .3s;
+}
+
+.forma1:hover {
+    clip-path: circle(100px at center top);
+}
+
+.portada1 {
+    background-color: #2137b3;
+    height: 250px;
+    /*diseño inicial*/
+    /*clip-path: polygon(0 0, 100% 0, 100% calc(100% - 5vw), 0 100%);*/
+    /*diseño1*/
+    /*clip-path: polygon(0 0, 100% 0, 100% calc(100% - 5vw), 0 100%);*/
+    /*diseño2*/
+    /*clip-path: polygon(0 0, 100% 30%, 100% calc(100% - 5vw), 0 100%);*/
+    /*diseño3*/
+    /*clip-path: polygon(0 0, 100% 30%, 100% calc(100% - 1vw), 0 100%);*/
+    /*diseño4*/
+    /*clip-path: polygon(0 0, 100% 0, 100% 40%, 0 90%);*/
+    /*diseño5*/
+    /*clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 100% 100%, 48% 68%, 0 100%);*/
+    /*diseño6*/
+    /*clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 70% 76%, 49% 100%, 31% 74%, 0% 75%);*/
+    /*diseño7*/
+    /*clip-path: polygon(0% 15%, 46% 1%, 47% 1%, 100% 15%, 100% 84%, 47% 100%, 46% 100%, 46% 100%, 46% 100%, 0% 85%);*/
+    /*diseño8*/
+    /*clip-path: polygon(49% 24%, 100% 0, 100% 35%, 100% 70%, 50% 100%, 50% 100%, 50% 100%, 0% 70%, 0 0);*/
+    /*diseño9*/
+    /* personalizacion de ondas
+    clip-path: polygon(100% 0%, 0% 0%, 0% 65%, 1% 64.95%, 2% 64.8%, 3% 64.6%, 4% 64.3%, 5% 63.9%, 6% 63.45%, 7% 62.9%, 8% 62.25%, 9% 61.55%, 10% 60.8%, 11% 59.95%, 12% 59.05%, 13% 58.1%, 14% 57.1%, 15% 56.05%, 16% 55%, 17% 53.9%, 18% 52.8%, 19% 51.65%, 20% 50.5%, 21% 49.35%, 22% 48.2%, 23% 47.05%, 24% 45.9%, 25% 44.8%, 26% 43.75%, 27% 42.75%, 28% 41.75%, 29% 40.8%, 30% 39.9%, 31% 39.1%, 32% 38.35%, 33% 37.65%, 34% 37.05%, 35% 36.5%, 36% 36.05%, 37% 35.65%, 38% 35.35%, 39% 35.15%, 40% 35.05%, 41% 35%, 42% 35.05%, 43% 35.2%, 44% 35.45%, 45% 35.75%, 46% 36.15%, 47% 36.65%, 48% 37.2%, 49% 37.85%, 50% 38.55%, 51% 39.35%, 52% 40.2%, 53% 41.1%, 54% 42.05%, 55% 43.05%, 56% 44.1%, 57% 45.15%, 58% 46.3%, 59% 47.4%, 60% 48.55%, 61% 49.7%, 62% 50.85%, 63% 52%, 64% 53.15%, 65% 54.25%, 66% 55.35%, 67% 56.4%, 68% 57.45%, 69% 58.4%, 70% 59.35%, 71% 60.2%, 72% 61.05%, 73% 61.8%, 74% 62.45%, 75% 63.05%, 76% 63.6%, 77% 64.05%, 78% 64.4%, 79% 64.7%, 80% 64.85%, 81% 65%, 82% 65%, 83% 64.9%, 84% 64.75%, 85% 64.5%, 86% 64.2%, 87% 63.75%, 88% 63.25%, 89% 62.7%, 90% 62.05%, 91% 61.3%, 92% 60.5%, 93% 59.65%, 94% 58.75%, 95% 57.8%, 96% 56.8%, 97% 55.75%, 98% 54.65%, 99% 53.55%, 100% 52.4%);
+    */
+    /*diseño10*/
+}
+
+.portada2 {
+    height: 100%;
+    /*el 57% permite controlar la posicion del doblaje*/
+    clip-path: polygon(100% 0, 100% 57%, 54% 100%, 0 100%, 0 0);
+    background-color: #2137b3;
+}
+
+
+/*clippath con banner web*/
+
+.portada3 {
+    background-image: url("../imagenes/banner1.jpg");
+    clip-path: polygon(100% 0, 100% 80%, 50% 100%, 0 80%, 0 0);
+    height: calc(100vh);
+    /*position: relative;*/
+    background-size: cover;
+    background-color: #1B85DC;
+    background-attachment: fixed;
+    /*brinda un color diferente al banner*/
+    /*background-blend-mode: multiply;*/
+    box-shadow: inset 0 0 0 1000px rgba(23, 23, 23, 0);
+    /*forma2*/
+    /*clip-path: polygon(0% 15%, 46% 1%, 47% 1%, 100% 15%, 100% 84%, 47% 100%, 46% 100%, 46% 100%, 46% 100%, 0% 85%);
+    height: calc(50vh);
+    background-position: center;
+    background-color: #e4e4e4;
+    background-blend-mode: multiply;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);*/
+}
+
+.portada4 {
+    background-color: #2137b3;
+    color: #000 !important;
+    padding: 20px 0;
+    -webkit-transform: skewY(-5deg);
+    -moz-transform: skewY(-5deg);
+    -ms-transform: skewY(-5deg);
+    -o-transform: skewY(-5deg);
+    transform: skewY(-5deg);
+    margin-top: -5vw;
+}
+
+.portada5 {
+    background-color: #2137b3;
+    color: #000 !important;
+    padding: 20px 0;
+    transform: skewX(12deg);
+    margin-top: -5vw;
+}
+
+.portada6 {
+    height: 400px;
+    background: rgb(57, 47, 192);
+    clip-path: ellipse(50% 50% at 50% 0%)
+}
+
+.btn {
+    clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 0 49%, 0% 0%);
+    /*background-color: blue;*/
+    border: none;
+    /*alto del boton*/
+    padding: 1rem;
+    /*ancho del boton*/
+    min-width: 10rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all 0.5s ease;
+}
+
+.btn:hover {
+    clip-path: polygon(88% 0, 100% 50%, 87% 100%, 0% 100%, 11% 50%, 0% 0%);
+}
+
+.cero {
+    clip-path: polygon(0 0, 23% 0, 60% 48%, 24% 100%, 0 100%, 38% 48%);
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(#58C2ED, #1B85DC);
+}
+
+.uno {
+    clip-path: polygon(0 100%, 0 0, 100% 0, 30% 50%);
+}
+
+.dos {
+    clip-path: url("#corazon");
+}
+
+.tres {
+    clip-path: circle();
+}
+
+.cuatro {
+    clip-path: inset(100px round 24px);
+}
+
+.cinco {
+    clip-path: rotacio(100px 80px at center);
+}
+
+.seis {
+    clip-path: url("#triangulo");
+}
+
+.siete {
+    clip-path: polygon( 50% 0, 100% 50%, 50% 100%, 0 50%);
+}
+
+.ocho {
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.nueve {
+    clip-path: url("#svgClip");
+    width: 150px;
+}
+
+.diez {
+    clip-path: circle(30% at 40% 20%);
+}
+
+.once {
+    clip-path: circle(50% at 70% 20%);
+}
+
+.doce {
+    clip-path: ellipse(50% 65% at 70% 50%);
+}
+
+.trece {
+    width: 250px;
+    height: 250px;
+    background-color: green;
+    margin: 40px auto;
+    clip-path: circle(50% at center top);
+    transition: all .3s;
+}
+
+.forma:trece {
+    clip-path: circle(100px at center top);
+}
+
+.catorce {
+    background: "lightblue";
+    clip-path: polygon(0% -20%, 100% 0%, 100% 90%, 56% 90%, 52% 100%, 48% 90%, 0% 90%);
+    border-radius: 25px;
+    margin-top: 250px;
+    height: 345px;
+    border-top: 4px solid white;
+    border-left: 4px solid white;
+    border-right: 4px solid white;
+    max-width: 750px;
+}
+
+#Capa_1 {
+    width: 25%;
+    padding-bottom: 50px;
+}
+
+footer {
+    background-color: #2137b3;
+}

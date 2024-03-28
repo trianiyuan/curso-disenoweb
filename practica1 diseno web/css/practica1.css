@@ -1,0 +1,43 @@
+.banner {
+    display: flex;
+    align-items: center;
+    /*banner a todo lo ancho, lo de cover*/
+    background-size: cover;
+    background-position: center;
+    background-image: url(../imagenes/banner1.jpg);
+    /*color del modo*/
+    background-color: #a0dbf2;
+    /*modo de color*/
+    background-blend-mode: luminosity;
+    /* profunidad */
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+}
+
+.espacio {
+    padding: 120px 0;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+p {
+    font-size: 22px;
+}
+
+.justificar {
+ text-align: justify;
+ text-indent: 0px;
+ margin: 0px;  
+}
+
+.titulajes {
+    color: #003c5e;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+footer {
+    color: #fff;
+    background-color: #003c5e;
+}

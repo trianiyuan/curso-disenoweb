@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: #eee;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+ul {
+    /*list-style: none;*/
+    font-size: 1.2rem;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px 20px;
+}
+
+.foto {
+    width: 80%;
+    height: 600px;
+    /*forma presentada*/
+    clip-path: ellipse(90% 70% at 0% 50%);
+    shape-outside: ellipse(90% 70% at 0% 50%);
+    shape-margin: 2em;
+}
+
+.forma1 {
+    /*xy xy xy xy ver documento adjunto del docente*/
+    clip-path: polygon(25% 0%, 75% 0%, 100% 100%, 0% 100%);
+    border-radius: 25px;
+    height: 345px;
+    border-top: 4px solid #fff;
+    border-left: 4px solid #fff;
+    border-right: 4px solid #fff;
+}
+
+.forma2 {
+    clip-path: polygon(5% 0%, 95% 0%, 100% 5%, 100% 80%, 89.98% 81.22%, 58.91% 85%, 49.75% 100%, 41.65% 84.4%, 41.58% 84.4%, 0% 80%, 0% 5%);
+    background-color: #c2eb47
+}
+
+
+/*deja la imagen normal */
+
+@media (max-width: 576px) {
+    .foto {
+        clip-path: none;
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+}
